@@ -3,4 +3,4 @@ bs4
 html5lib
 transformers
 requests
-torch
+tensorflow
