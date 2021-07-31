@@ -22,7 +22,7 @@ def clean_book(text_file):
   book = ' '.join(ultra_clean)
   return book
 
-def interview(text):
+def clean_interview(text):
   latters_to_keep = list((string.ascii_letters)+(string.ascii_uppercase) + "."+","+" ")
   selected_latters = []
   for i in range(len(text)):
